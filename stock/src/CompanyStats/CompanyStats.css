@@ -1,0 +1,36 @@
+.company-stats-container__item {
+  display: grid;
+  grid-gap: 1rem;
+  display: flex;
+  flex-basis: 50%;
+}
+
+.company-stats {
+  padding: 1em;
+  display: grid;
+}
+
+.company-stats__icon {
+  width: 25px;
+  text-align: left;
+}
+.company-stats__pct {
+  text-align: left;
+  display: flex;
+}
+.company-stats__name {
+  font-size: 1.5rem;
+  display: grid;
+  text-align: left;
+}
+.company-stats__price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: grid;
+  text-align: left;
+}
+.company-stats__change {
+  font-size: 1.4rem;
+  display: grid;
+  display: inline-block;
+}
